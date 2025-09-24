@@ -29,7 +29,7 @@ namespace _04_Laboratory_Exercise_1_Soriano
             ThreadA.Name = "Thread A Process";
             ThreadB.Name = "Thread B Process";
 
-            Console.WriteLine("- Before starting thread");
+            Console.WriteLine("- Before starting thread -");
             ThreadA.Start();
             ThreadB.Start();
 

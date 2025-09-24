@@ -15,9 +15,9 @@ namespace _04_Laboratory_Exercise_1_Soriano
             {
                 Thread thread = Thread.CurrentThread;
                 Console.WriteLine("Name of Thread: " + thread.Name + " = " + loopCount);
-                if(i == 5)
+                if(loopCount == 5)
                 {
-                    Thread.Sleep(1500);
+                    Thread.Sleep(1500); //Terminates the thread in the fifth attempt
                 }
             }
         }
