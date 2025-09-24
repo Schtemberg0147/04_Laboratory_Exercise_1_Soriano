@@ -1,6 +1,6 @@
 ﻿namespace _04_Laboratory_Exercise_1_Soriano
 {
-    partial class Form1
+    partial class FrmBasicThread
     {
         /// <summary>
         /// Required designer variable.

@@ -16,7 +16,7 @@ namespace _04_Laboratory_Exercise_1_Soriano
         {
             Application.EnableVisualStyles();
             Application.SetCompatibleTextRenderingDefault(false);
-            Application.Run(new Form1());
+            Application.Run(new FrmBasicThread());
         }
     }
 }
